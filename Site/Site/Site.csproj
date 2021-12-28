@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Style\css\bootstrap-theme.css" />
+    <None Include="wwwroot\Style\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\Style\css\bootstrap-theme.min.css" />
+    <None Include="wwwroot\Style\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\Style\css\bootstrap.css" />
+    <None Include="wwwroot\Style\css\bootstrap.css.map" />
+    <None Include="wwwroot\Style\css\bootstrap.min.css" />
+    <None Include="wwwroot\Style\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\Style\css\dataTables.bootstrap.css" />
+    <None Include="wwwroot\Style\css\dataTables.bootstrap.min.css" />
+    <None Include="wwwroot\Style\css\dataTables.bootstrap4.css" />
+    <None Include="wwwroot\Style\css\dataTables.bootstrap4.min.css" />
+    <None Include="wwwroot\Style\css\dataTables.foundation.css" />
+    <None Include="wwwroot\Style\css\dataTables.foundation.min.css" />
+    <None Include="wwwroot\Style\css\dataTables.jqueryui.css" />
+    <None Include="wwwroot\Style\css\dataTables.jqueryui.min.css" />
+    <None Include="wwwroot\Style\css\dataTables.material.css" />
+    <None Include="wwwroot\Style\css\dataTables.material.min.css" />
+    <None Include="wwwroot\Style\css\dataTables.semanticui.css" />
+    <None Include="wwwroot\Style\css\dataTables.semanticui.min.css" />
+    <None Include="wwwroot\Style\css\dataTables.uikit.css" />
+    <None Include="wwwroot\Style\css\dataTables.uikit.min.css" />
+    <None Include="wwwroot\Style\css\jquery.dataTables.css" />
+    <None Include="wwwroot\Style\css\jquery.dataTables.min.css" />
+    <None Include="wwwroot\Style\css\jquery.dataTables_themeroller.css" />
+    <None Include="wwwroot\Style\css\Site.css" />
+    <None Include="wwwroot\Style\datatables.css" />
+    <None Include="wwwroot\Style\datatables.js" />
+    <None Include="wwwroot\Style\datatables.min.css" />
+    <None Include="wwwroot\Style\datatables.min.js" />
+    <None Include="wwwroot\Style\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\Style\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\Style\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\Style\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\Style\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\Style\images\favicon.ico" />
+    <None Include="wwwroot\Style\images\Sorting icons.psd" />
+    <None Include="wwwroot\Style\images\sort_asc.png" />
+    <None Include="wwwroot\Style\images\sort_asc_disabled.png" />
+    <None Include="wwwroot\Style\images\sort_both.png" />
+    <None Include="wwwroot\Style\images\sort_desc.png" />
+    <None Include="wwwroot\Style\images\sort_desc_disabled.png" />
+    <None Include="wwwroot\Style\js\dataTables.bootstrap.js" />
+    <None Include="wwwroot\Style\js\dataTables.bootstrap.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\Style\js\dataTables.bootstrap4.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.dataTables.js" />
+    <None Include="wwwroot\Style\js\dataTables.dataTables.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.foundation.js" />
+    <None Include="wwwroot\Style\js\dataTables.foundation.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.jqueryui.js" />
+    <None Include="wwwroot\Style\js\dataTables.jqueryui.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.material.js" />
+    <None Include="wwwroot\Style\js\dataTables.material.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.semanticui.js" />
+    <None Include="wwwroot\Style\js\dataTables.semanticui.min.js" />
+    <None Include="wwwroot\Style\js\dataTables.uikit.js" />
+    <None Include="wwwroot\Style\js\dataTables.uikit.min.js" />
+    <None Include="wwwroot\Style\js\jquery.dataTables.js" />
+    <None Include="wwwroot\Style\js\jquery.dataTables.min.js" />
+    <None Include="wwwroot\Style\js\jquery.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl" Version="3.0.2" />
+    <PackageReference Include="Flurl.Http" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>
